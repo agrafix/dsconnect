@@ -1,0 +1,294 @@
+/* 
+    Document   : connect.css
+    Created on : 30.12.2011, 23:35:11
+    Author     : Alexander Thiemann <mail@agrafix.net>
+    Description:
+        Stylesheet for DSConnect
+*/
+
+* { 
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    background-color:#CABA96;
+    font-family:Verdana;
+    font-size:9pt;
+}
+
+img {
+    border:none;
+}
+
+a {
+    color:#804000;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+a:hover, a:active {
+    color:#0082BE;
+}
+
+a.inactive {
+    color:#C0AFAA;
+}
+
+input {
+    padding:2px;
+}
+
+h3 {
+    padding-top:15px;
+    padding-bottom:5px;
+}
+
+p {
+    padding-bottom:10px;
+}
+
+td, th {
+    padding:4px;
+}
+
+th {
+    background-color:#C4A566;
+}
+
+td {
+    background-color: #F4E4BC;
+}
+
+/*General Layout*/
+div#topbar {
+    margin:0;
+    
+    height:40px;
+    line-height:40px;
+    background-color:#EEDFBE;
+    
+    padding-right:40px;
+}
+
+div#topbar a {
+    display:inline-block;
+    float:right;
+    padding-right:15px;
+    padding-left:15px;
+    height:40px;
+}
+
+div#topbar a:hover {
+    background-color:#F2EBDC;
+}
+
+div#topbar span.title {
+    color:#804000;
+    font-size:x-large;
+    margin-left:20px;
+    
+    font-family:Times;
+    
+    cursor:pointer;
+}
+
+div#container {
+    width:80%;
+
+    margin-left:auto;
+    margin-right:auto;
+    
+    border:2px solid #7D6F6C;
+    border-top:none;
+    
+    background-color:#F1EBDD;
+}
+
+
+div#container:after {
+    content: ".";
+    display:block;
+    height:0;
+    clear:both;
+    visibility:hidden;
+}
+
+div#container div#nav {
+    float:left;
+    
+    width:20%;
+    
+    border:1px solid #804000;
+    border-top:none;
+    border-left:none;
+}
+
+div#container div#nav h1 {
+    background-color:#DED3B9;
+    font-size:10.4pt;
+    font-style:italic;
+    
+    padding: 5px;
+    
+    margin-top: 15px;
+}
+
+/*
+div#container div#nav a:before {
+    content:"» ";
+}
+*/
+
+div#container div#nav a {
+    display:block;
+    
+    padding:2px;
+    padding-left:5px;
+}
+
+div#container div#content {
+    float:right;
+    
+    width:75%;
+    
+    margin: 15px;
+    margin-left:0;
+}
+
+div#footnote {
+    text-align:center;
+    font-size:x-small;
+    
+    margin-top:20px;
+}
+
+/*New Status*/
+div#status_post input[type=text] {
+    width:70%;
+    padding:5px;
+}
+
+div#status_post {
+    margin-bottom:10px;
+}
+
+/*Threads*/
+div.threadbit {
+    margin-bottom: 15px;
+}
+
+div.threadbit span {
+    color: #7D6F6C;
+}
+
+div.threadbit span a {
+    font-weight: normal;
+}
+
+/*Login*/
+div#loginbox {
+    border: 1px solid grey;
+    border-top: none;
+    border-bottom:none;
+    
+    width: 300px;
+
+    margin-left:auto;
+    margin-right:auto;
+    
+    padding:25px;
+}
+
+div#loginbox label {
+    width: 100px;
+    display: inline-block;
+}
+
+div#loginbox input {
+    margin-bottom:10px;
+}
+
+/*Change World*/
+ul.world_select {
+    list-style-type: none; 
+    
+    padding:0px;
+}
+
+ul.world_select li {
+    margin: 0 3px 3px 3px; 
+    padding: 0.4em; 
+    font-size: 1.4em; 
+    height: 18px;
+    
+    width:100px;
+    float:left;
+    
+    cursor:pointer;
+}
+
+ul.world_select .ui-selecting { background: #FECA40; }
+ul.world_select .ui-selected { background: #F39814; color: white; }
+
+/*Intro*/
+div#intro_div {
+    padding: 20px;
+}
+
+div#intro_div h1 {
+    margin-top: 20px;
+    margin-bottom:20px;
+}
+
+div#intro_div h2 {
+    margin-bottom:10px;
+}
+
+div#intro_div a {
+    margin-top:20px;
+    font-size: x-large;
+}
+
+/*Map Loading*/
+div.twmap-loading {
+    border:2px solid #7D6F6C;
+    background-image:url(../image/ajax-loader-small.gif);
+    background-repeat:no-repeat;
+    background-color:#F5F5B5;
+    background-position: 5px 0;
+    
+    text-align:left;
+    padding-left: 30px;
+    
+    margin-bottom:10px;
+}
+
+/*Countdown*/
+.countdown_finished {
+    color:#E13300;
+}
+
+/*tooltip*/
+.tooltip {
+    border:2px solid #7D6F6C;
+    background-color:#F4F0EC;
+    
+    padding: 5px;
+}
+
+/*lang selector */
+.languageDropdown span {
+    display:block;
+    
+    padding: 5px;
+    cursor:pointer;
+    
+    color:#804000;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.languageDropdown span:hover {
+    background-color:#C0AFAA;
+}
