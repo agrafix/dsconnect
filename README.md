@@ -5,7 +5,7 @@ dsconnect
 
 Social Network for TribalWars
 
-This is a social network for TribalWars. You can follow players, villages and tribes and get updates about enoblements and point changes. You can also write custom posts and discuss. A mapping tool and an attack-planner is included too. The network is currently run at [dsconnect.de](http://www.dsconnect.de) for all german and english game worlds. The software is internationalized for german and english. 
+This is a social network for TribalWars. You can follow players, villages and tribes and get updates about enoblements and point changes. You can also write custom posts and discuss. A mapping tool and an attack-planner is included too. The software is internationalized for german and english. 
 
 # Notes
 
